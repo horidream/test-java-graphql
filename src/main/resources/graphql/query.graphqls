@@ -1,0 +1,14 @@
+# All available queries on this graphql server
+type Query {
+    bankAccount(id: ID): BankAccount
+}
+
+
+type Mutation{
+    uploadFile(file:Upload!):File
+}
+
+
+
+
+
